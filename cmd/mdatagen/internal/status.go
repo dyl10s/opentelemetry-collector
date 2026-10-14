@@ -51,6 +51,7 @@ type Status struct {
 	Deprecation          DeprecationMap `mapstructure:"deprecation"`
 	CodeCovComponentID   string         `mapstructure:"codecov_component_id"`
 	DisableCodeCov       bool           `mapstructure:"disable_codecov_badge"`
+	IssueLabel           string         `mapstructure:"issue_label"`
 }
 
 type DeprecationMap map[string]DeprecationInfo

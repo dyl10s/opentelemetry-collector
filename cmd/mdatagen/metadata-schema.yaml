@@ -76,6 +76,8 @@ status:
     active: [string]
     emeritus: [string]
   unsupported_platforms: [<linux|windows>]
+  # Optional: The GitHub label used for the issues badges, defaults to <class>/<short folder name>
+  issue_label: string
 
 # Optional: OTel Semantic Conventions version that will be associated with the scraped metrics.
 # This attribute should be set for metrics compliant with OTel Semantic Conventions.
